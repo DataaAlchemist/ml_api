@@ -1,0 +1,15 @@
+POST http://localhost:5000/api/recommend
+Content-Type: application/json
+
+{
+    "title": "The Alchemist"
+}
+
+###
+
+POST http://localhost:5000/api/similar
+Content-Type: application/json
+
+{
+    "id": "26834"
+}
