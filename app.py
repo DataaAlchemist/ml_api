@@ -75,6 +75,3 @@ def get_all():
 def teardown_db(exception):
     print('disconnecting...')
     client.close()
-
-if __name__ == '__main__':
-    app.run(port=5000, debug=True)
