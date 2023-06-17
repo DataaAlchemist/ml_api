@@ -13,3 +13,21 @@ Content-Type: application/json
 {
     "id": "26834"
 }
+
+###
+
+POST https://api-enchants-ml.herokuapp.com/api/recommend
+Content-Type: application/json
+
+{
+    "title": "The Alchemist"
+}
+
+###
+
+POST https://api-enchants-ml.herokuapp.com/api/similar
+Content-Type: application/json
+
+{
+    "id": "26834"
+}
